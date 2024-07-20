@@ -1,0 +1,16 @@
+{
+	"name": "repair-cafe-site-editor-backend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy src/index.ts",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20240718.0",
+		"typescript": "^5.4.5",
+		"wrangler": "^3.0.0"
+	}
+}
